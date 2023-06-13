@@ -1,6 +1,6 @@
 # EnduraBot
 
-![Alt Text](logo_endura.jpg)
+![Alt Text](endurabot.png)
 
 **Endura Healthcare Chatbot** 
 
