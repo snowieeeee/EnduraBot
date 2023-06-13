@@ -1,0 +1,183 @@
+{"intents":
+    [
+                {
+                 "tag":"greetings",
+                 "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going"],
+                 "responses":["Hello","Hey There! What can i do for you today?","How has been your health lately?"]
+                },
+                {
+                 "tag":"goodbye",
+                 "patterns": ["goodbye","see you later","have a good day","bye","see ya"],
+                 "responses":["Have a nice day","Goodbye","Bye, take care."]
+                },
+                {
+                 "tag":"age",
+                 "patterns": ["How old are you?","What is your age","how old are you","age?"],
+                 "responses":["I get reborn after every compilation","My creator is almost 22 years!"]
+                },
+                {
+                 "tag":"name",
+                 "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
+                 "responses":["You can call me EnduraBot!","My name is Endura!","I am EnduraBot, your medical assistant :)"]
+                },
+                {
+                 "tag":"common cold symptoms",
+                 "patterns": ["Runny or stuffy nose",
+                 "Sore throat",
+                 "Cough",
+                 "Congestion",
+                 "Slight body aches or a mild headache",
+                 "Sneezing",
+                 "Low-grade fever",
+                 "Generally feeling unwell (malaise)"],
+                 "responses":["It seems that you are suffering from common cold"]
+                },
+                {
+                 "tag":"fever symptoms",
+                 "patterns":["Sweating",
+                 "Chills and shivering",
+                 "Headache",
+                 "Muscle aches",
+                 "Loss of appetite",
+                 "Irritability",
+                 "Dehydration",
+                 "General weakness"],
+                 "responses":["It seems that you are suffering from fever"]
+                },
+                {
+                    "tag":"heart diseases",
+                    "patterns":["Chest pain", 
+                        "chest tightness", 
+                        "chest pressure",
+                        "chest discomfort",
+                        "angina",
+                        "Pain in the neck, jaw, throat, upper abdomen or back",
+                        "exhaustion"],
+                    "responses":["It seems that you are suffering from cardiovascular disease. Please check your heartbeat and SPO2 level immediately. If unusual patterns are found, consult a doctor immediately."]
+                },
+                {
+                    "tag":"kidney problems",
+                    "patterns":["Pain areas: in the bladder, groin, lower abdomen, or pelvis",
+                        "Pain during urination",
+                        "foul smelling urine", "frequent urination", "bladder spasm", "cloudy urine", "dark urine",
+                        "persistent urge to urinate", "sense of incomplete bladder emptying","blood in urine",
+                        "cramping or vaginal irritation",
+                        "urine that appears cloudy",
+                        "A burning sensation when urinating."],
+                    "responses":["It seems that you are suffering from urological problems."]
+                   },
+                   {
+                    "tag":"gastroenterology",
+                    "patterns":["Burning stomach pain.",
+                        "Feeling of fullness", "bloating or belching of belly",
+                        "Intolerance to fatty foods",
+                        "Heartburn"],
+                    "responses":["It seems that you are suffering from gastric problems"]
+                   },
+                   {
+                    "tag":"Dermatology",
+                    "patterns":["Discolored skin patches (abnormal pigmentation)",
+                        "Dry skin",
+                        "Open sores", 
+                        "lesions or ulcers",
+                        "Peeling skin",
+                        "Rashes",
+                        "Red", "white or pus-filled bumps"],
+                    "responses":["It seems that you are suffering from a skin disease."]
+                   },
+                {
+                 "tag":"diabetes symptoms",
+                 "patterns":["increased hunger",
+                 "increased thirst",
+                 "weight loss",
+                 "frequent urination",
+                 "blurry vision",
+                 "extreme fatigue"],
+                 "responses":["It seems that you are suffering from Diabetes"]
+                },
+                {
+                 "tag":"depression",
+                 "patterns":["Hopeless outlook",
+                 "Lost interest",
+                 "Increased fatigue",
+                 "sleep problem",
+                 "Anxiety",
+                 "change in weight",
+                 "Looking at death"],
+                 "responses":["It seem that you are suffering from depression"]
+                },
+                {
+                 "tag":"asthma",
+                 "patterns":["coughing",
+                 "tightness in the chest",
+                 "shortness of breath",
+                 "difficulty talking",
+                 "panic",
+                 "fatigue"],
+                 "responses":["It seem that you are suffering from Asthma"]
+                },
+                {
+                 "tag":"common cold prevention and medicines",
+                 "patterns":["What medicines can I buy to help me with my common cold?","tell me some prevention method from common cold","What should I eat or drink if i am suffering from common cold?","How can I keep from getting a cold or the flu?"],
+                 "responses":["Medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max.<br><br> Preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers.<br><br> Suggested food are : Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+                },
+                {
+                 "tag":"fever prevention and medications",
+                 "patterns":["What medicines can I buy to help me with my fever?","tell me some prevention method from fever","What should I eat or drink if i am suffering from fever?","How can I keep from getting a fever?"],
+                 "responses":["Medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max.<br><br> Prevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.<br><br> Suggested food are : Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+                },
+                {
+                    "tag":"cardiac problems prevention and medication",
+                    "patterns":["What medicines can I buy to help me with my heart problem?","tell me some prevention method from heart problem","What should I eat or drink if i am suffering from heart problem?","How can I prevent myself from having a heart problem?"],
+                    "responses":["Medicines you can consume : dilzem,deplatt CV, Atorva, Apigut.<br><br> Prevention that you must follow :Eat low fat food,Eat less oily food, Do some cardiovascular exercises daily and stay under doctor's regular supervision,quitting smoking, and limiting alcohol intake.<br><br> Suggested food are : Fruits and vegetables,nuts and seeds,plant-based oils, such as olive oil,lean meats"]
+                },
+                {
+                    "tag":"gastric problem prevention and medication",
+                    "patterns":["What medicines can I buy to help me with my gastric pain?","tell me some prevention method from gastric pain","What should I eat or drink if i am suffering from gastrcic problem?"],
+                    "responses":["Medicines you can consume : Omeprazole, pantoprazole and lansoprazole.<br><br> Prevention that you must follow :Eat high fiber diet and low on oil food, perform some yoga which aids in digestion, drink warm cumin water in the morning to enhance enzymic activity.<br><br> Suggested food are : Dietary fiber. This includes oats, legumes, flax seeds, nuts, oranges, apples, and carrots, Vitamin A rich foods. Foods like broccoli, sweet potatoes, kale, spinach, and collard greens contain vitamin A."]
+                },
+                {
+                    "tag":"urological problem prevention and medication",
+                    "patterns":["What medicines can I buy to help me with my urological problem?","tell me some prevention method from urological problem","What should I eat or drink if i am suffering from urological problem?","How can I keep from getting a urological problem?"],
+                    "responses":["Medicines you can consume : antibiotics, penicillin, Nitrofurantoin (Macrobid), Trimethoprim-sulfamethoxazole (Bactrim), Fosfomycin (Monurol).<br><br> Prevention that you must follow :Drink plenty of water, and relieve yourself often.<br><br> Suggested food are : Dietary fiber. This includes oats, legumes, flax seeds, nuts, oranges, apples, and carrots, Vitamin A rich foods. Foods like broccoli, sweet potatoes, kale, spinach, and collard greens contain vitamin A."]
+                },
+                {
+                    "tag":"skin problem prevention and medication",
+                    "patterns":["What medicines can I buy to help me with skin disease?","tell me some prevention method skin disease","What should I eat or drink if i am suffering skin disease?","How can I keep from gettiskin disease?"],
+                    "responses":["Medicines you can consume : Antibiotics, Antihistamines, Laser skin resurfacing, Medicated creams, ointments or gels, Moisturizers,Steroid pills, creams or injections,Surgical procedures.<br><br> Prevention that you must follow :Take bath daily, Use medicated soap, Prefer cold showers always, stay hydrated.<br><br> Suggested food are : Fatty fish. Fatty fish, such as salmon, mackerel, and herring,Avocados,Walnuts,Sunflower seeds,Sweet potatoes,Red or yellow bell peppers,Broccoli,Tomatoes"]
+                },
+                {
+                 "tag":"diabetes prevention and medication",
+                 "patterns":["What medicines can I buy to help me with my diabetes?","tell me some prevention method from diabetes","What should I eat or drink if i am suffering from diabetes?","How can I keep from getting diabetes?"],
+                 "responses":["Medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor.<br><br> Prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes.<br><br> Suggested food are : Leafy greens,Avocados,Eggs"]
+                },
+                {
+                 "tag":"depression medication",
+                 "patterns":["What medicines can I buy to help me with my depression?","tell me some prevention method from depression","What should I eat or drink if i am suffering from depression?","How can I keep from getting depression?"],
+                 "responses":["Medicines you can consume :  brexpiprazole, quetiapine,olanzapine.<br><br> Prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet.<br><br> Suggested food are : Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"]
+                },
+                {
+                 "tag":"asthma medication",
+                 "patterns":["What medicines can I buy to help me with my asthma?","tell me some prevention method from asthma","What should I eat or drink if i am suffering from asthma?","How can I keep from getting asthma?"],
+                 "responses":["Medicines you can consume : epinephrine,anticholinergic,Proair HFA.<br> Prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens, Avoid Smoke of Any Type.<br> Suggested food are : carrots,juice,eggs,broccoli,cantaloupe,milk"]
+                },
+                {
+                    "tag": "appointment",
+                    "patterns": ["I want to book an appointment", "I want to see a doctor"],
+                    "responses": ["Sure! Let me check the available doctors for you.", "I can help you with that. Let's find a suitable doctor."],
+                    "context_set": "appointment"
+                },
+                {
+                    "tag": "select_doctor",
+                    "patterns": ["1","2","3","4","5"],
+                    "responses": []
+                },
+                {
+                    "tag": "select_appointment_date",
+                    "patterns": ["date 1","date 2","date 3","date 4","date 5"],
+                    "responses": []
+                }
+        
+    ]
+}
+            
