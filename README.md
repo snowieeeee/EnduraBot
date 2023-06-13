@@ -1,6 +1,5 @@
 # EnduraBot
 
-![Alt Text](endurabot.png)
 
 **Endura Healthcare Chatbot** 
 
@@ -22,3 +21,7 @@ Endura is built using a combination of NLTK, Python, TensorFlow, and Flask, leve
 
 
 For more details, you can check EnduraBot.pdf
+
+<div align="center">
+  <img src="endurabot.png" alt="Alt Text">
+</div>
