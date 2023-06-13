@@ -1,5 +1,7 @@
 # EnduraBot
 
+![Alt Text](logo_endura.jpg)
+
 **Endura Healthcare Chatbot** 
 
 EnduraBot is a medical chatbot designed to assist users with their healthcare needs. Powered by interesting techniques in natural language processing and machine learning, Endura offers a seamless and user-friendly experience with an ergonomic user interface.
